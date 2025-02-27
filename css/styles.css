@@ -264,7 +264,7 @@ margin: 0;}
 
 .lifour {width:calc( (100% - 48px) / 3);
     position: relative;
-        overflow: hidden;
+         overflow: hidden;
         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
             
@@ -297,9 +297,10 @@ img {display:block;}
 .overlay {position: relative;
     bottom: 0;
     left:0;
-transition: transform 250ms ease-in-out;}
+transition: transform 250ms ease-in-out;
+overflow: hidden;}
 .lifour:hover .text{transform: translateY(0%);
-     }
+      }
     .text {position: absolute;
     top:0;
     width: 100%;
@@ -308,4 +309,5 @@ transition: transform 250ms ease-in-out;}
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-background-color: #4D5AE5;}
+background-color: #4D5AE5;
+overflow: hidden;}
