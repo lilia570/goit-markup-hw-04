@@ -298,7 +298,7 @@ img {display:block;}
     bottom: 0;
     left:0;
 transition: transform 250ms ease-in-out;}
-.lifour:hover .overlay{transform: translateY(0%);
+.lifour:hover .text{transform: translateY(0%);
      }
     .text {position: absolute;
     top:0;
