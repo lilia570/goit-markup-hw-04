@@ -357,6 +357,17 @@ width: 100%;
         background-color: #4D5AE5;
         overflow: hidden;}
          
-       
+       svg {width: 64px;
+    height: 64px;
+           }
+
+
+.icon-item { display: flex;
+align-items: center;
+border-radius: 4px;
+background-color: #f4f4fd; 
+border: 1px solid #8e8f99;
+margin-bottom: 8px;
+}
 
         
