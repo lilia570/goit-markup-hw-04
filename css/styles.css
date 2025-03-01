@@ -122,6 +122,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 padding: 24px 0;
 position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
 }
 .nav-item:hover {color:#404bbf;
@@ -192,10 +193,11 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color:#4d5ae5;
+color:#404BBF;
 margin-right: 76px;
 display: inline-block;
-margin-bottom: 16px;}
+margin-bottom: 16px;
+display: flex;}
 
 
 span {color: #f4f4fd;}
