@@ -381,3 +381,8 @@ margin-bottom: 8px;
  
         .footer-p {margin-bottom: 16px;
         letter-spacing: 0.02em;}
+        .icon-team {display: flex; 
+        gap: 16px;
+    }
+    .icon2 {width: 40px;
+    height: 40px;}
