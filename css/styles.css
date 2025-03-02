@@ -337,8 +337,7 @@ padding: 0 15px;
 display: flex;
 align-items: center;
 margin-right: 120px;
-
-
+justify-content: center;
  }
 
 .div-class {display: flex;}
@@ -407,3 +406,11 @@ border-radius: 50%;
 justify-content: center;}
 .solutions {align-items: center;
     }
+    .container-two {height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+    display: flex;
+    border: 1px solid #8e8f99;
+margin-bottom: 8px;
+align-items: center;
+justify-content: center;}
