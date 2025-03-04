@@ -410,9 +410,16 @@ body {color:#434455;
     
     
             .icon-team {display: flex; 
-            gap: 16px;
-            font-weight: 500px;
+            justify-content: center;
+            gap: 24px;
         }
+        .social-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;}
+
         .icon2 {width: 40px;
         height: 40px;}
     
