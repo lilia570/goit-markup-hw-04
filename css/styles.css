@@ -229,7 +229,8 @@ body {color:#434455;
     
     
     .increase {color:#F4F4FD;
-    max-width: 264px;}
+    max-width: 264px;
+}
     
     
     .goal {font-size: 16px;
@@ -370,6 +371,7 @@ body {color:#434455;
         align-items: flex-end;
         transform: translateY(0%);
         overflow: hidden;
+         
         
     }
     
@@ -388,7 +390,8 @@ body {color:#434455;
             letter-spacing: 0.02em;
             background-color: #4D5AE5;
             overflow: hidden;
-            letter-spacing: 0.02em;}
+            letter-spacing: 0.02em;
+         }
              
            svg {width: 64px;
         height: 64px;
@@ -407,12 +410,13 @@ body {color:#434455;
             .footer-p {margin-bottom: 16px;
             letter-spacing: 0.02em;
         font-weight: 500;
-    align-items: baseline;}
+    align-items: baseline;
+color: #FFFFFF;}
     
     
             .icon-team {display: flex; 
             justify-content: center;
-            gap: 24px;
+            gap: 16px;
         }
         .social-icon{
         display: flex;
@@ -430,10 +434,12 @@ body {color:#434455;
             width: 100%;
             height: 100%;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                width: 100%;
-                    height: 100%;}
-        .iconadr:hover{background-color:#404bbf ;}
-        .iconadr:focus{background-color: #404bbf;}
+            width: 100%;
+            height: 100%;}
+
+        .iconadr:hover{background-color:#31d0aa;}
+        .iconadr:focus{background-color: #31d0aa;}
+
         .icon2 {width: 40px;
         height: 40px;}
    
