@@ -374,8 +374,7 @@ body {color:#434455;
         align-items: flex-end;
         transform: translateY(0%);
         overflow: hidden;
-         padding: 40px 32px;
-        color: #f4f4fd;
+        
     }
     
     
@@ -394,6 +393,9 @@ body {color:#434455;
             background-color: #4D5AE5;
             overflow: hidden;
             letter-spacing: 0.02em;
+            padding: 40px 32px;
+            color: #f4f4fd;
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
          }
              
            svg {width: 64px;
