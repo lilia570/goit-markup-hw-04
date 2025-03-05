@@ -352,8 +352,10 @@ body {color:#434455;
     padding: 0 15px;
      
      }
-    .container-footer{margin-right: 120px;}
-    .footer .container {align-items: baseline;}
+    
+    .footer .container {align-items: baseline;
+        margin-right: 120px;
+        display: flex;}
     .div-class {display: flex;}
     
     .contacts-link {transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -480,7 +482,7 @@ color: #FFFFFF;}
         align-items: center;
         justify-content: center;
         gap: 24px;
-        
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         background-color: #4d5ae5;
         border-radius: 50%;
         width: 100%;
