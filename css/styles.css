@@ -439,7 +439,11 @@ color: #FFFFFF;}
 
         .iconadr:hover{background-color:#31d0aa;}
         .iconadr:focus{background-color: #31d0aa;}
-
+        .iconadress {gap: 24px;
+        display: flex;
+    justify-content: center;}
+    .iconadress:hover{background-color: #404BBF;}
+    .iconadress:focus{background-color: #404bbf;}
         .icon2 {width: 40px;
         height: 40px;}
    
