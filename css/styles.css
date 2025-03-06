@@ -423,7 +423,7 @@ color: #FFFFFF;}
             justify-content: center;
             gap: 24px;
         }
-        .icon-team2 {display: flex;
+        .icon-team-two {display: flex;
         gap: 16px; ;}
         .social-icon{
         display: flex;
@@ -450,7 +450,7 @@ color: #FFFFFF;}
     justify-content: center;}
     .iconadress:hover{background-color: #404BBF;}
     .iconadress:focus{background-color: #404bbf;}
-        .icon2 {width: 40px;
+        .icon-two {width: 40px;
         height: 40px;}
    
     .icon {fill: #f4f4fd;}
@@ -477,7 +477,7 @@ color: #FFFFFF;}
         align-items: center;
         justify-content: center;}
 
-    .footerdiv {margin-right: 120px;}
+    .footerlogo {margin-right: 120px;}
     .container-header  {align-items: center;
     display: flex;}
     .iconadr {display: flex;
