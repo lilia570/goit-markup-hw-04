@@ -159,6 +159,9 @@ h1 {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
   text-transform: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .current {
@@ -166,11 +169,11 @@ h1 {
   color: #404bbf;
 }
 
-.nav-item:hover {
+.current:hover {
   color: #404bbf;
   width: 100%;
 }
-.nav-item:focus {
+.current:focus {
   color: #404bbf;
 }
 
@@ -316,7 +319,7 @@ span {
   display: inline-block;
 }
 
-.container-class {
+.container-header {
   width: 1158px;
 
   margin: 0;
@@ -391,13 +394,11 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
 }
-
 .footer .container {
   align-items: baseline;
   margin-right: 120px;
@@ -550,10 +551,7 @@ img {
 .footerlogo {
   margin-right: 120px;
 }
-.container-header {
-  align-items: center;
-  display: flex;
-}
+
 .iconadr {
   display: flex;
   align-items: center;
